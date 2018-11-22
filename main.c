@@ -16,7 +16,8 @@ int main(int argc, char *argv[]) {
 	}
 	//dst[i] = '\0';
 	
-	printf("%s (%i)\n", dst, i);
+	printf("%s (%i)\n", src, i);
+	printf("%i", strlen(src));	// 문자열 길이 계산  
 	
 	return 0;
 }
