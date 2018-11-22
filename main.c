@@ -6,18 +6,17 @@
 int main(int argc, char *argv[]) {
 	
 	char src[100] = "Programming course";
-	//char dst[100];
+	char dst[100];
 	int i;
 	
 	while (src[i] != '\0')
 	{
-	//	dst[i] = src[i];
+		dst[i] = src[i];
 		i++;
 	}
-	//dst[i] = '\0';
+	dst[i] = '\0';
 	
-	printf("%s (%i)\n", src, i);
-	printf("%i", strlen(src));	// 문자열 길이 계산  
+	printf("%s\n", dst);  
 	
 	return 0;
 }
